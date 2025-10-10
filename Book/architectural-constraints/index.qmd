@@ -1,0 +1,67 @@
+# Architectural Constraints
+
+## Architectural Goals
+
+Integration Goals with Frontify Marketing material services:
+
+* Standardise Brochure Generation:
+  * Implement consistent methods for creating brochures.
+* Standardise Data Integration, Reporting, and Export:
+  * Ensure uniform approaches for data handling and reporting.
+* Utilise Current Patterns for Gathering Usage Information:
+  * Adopt existing methods to collect and analyze usage data.
+* Reduce Brochure Generation Time:
+  * Streamline processes to create brochures more quickly.
+* Control Brochure Look and Feel with Marketing Templates:
+  * Maintain a consistent design using marketing-approved templates.
+
+## Architectural Principles
+
+The proposed pattern architecture aligns to our current Group Technology Principles as follows:
+
+| # | Principle                                                            | Description                                                                                                                                                                                               | RAG   |
+| - | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+| 1 | Cloud-First and Microsoft-Considered Strategy                        | This service, like all services defined are written to take advantages of cloud-first design, and are only cloud vendor specific where they need to be.                                                   | Green |
+| 2 | Design in a modular way and think of re-use                          | The service integration pattern follows previously defined services, and shares many components.                                                                                                          | Green |
+| 3 | High Cohesion and Low Coupling – Favour Asynchronous Communication​  | This service utilises a service-bus architecture, decoupling it from specific client applications, enabling it to be used by all.                                                                         | Green |
+| 4 | Software Should be Verifiable                                        | This service has been designed with the view that all components will be highly testable, and fully meet the requirements of a CI/CD strategy.                                                            | Green |
+| 5 | Think Global, Build Local                                            | This service has been specified to be location agnostic.                                                                                                                                                  | Green |
+| 6 | Configuration over Customisation                                     | Any cloud service must facilitate run-time behaviour (configuration) changes via a self-serve administrator portal. This SAD includes the resources to enable this capability by default                  | Green |
+| 7 | Build with Privacy-as-Default with a risk-based approach to security | The pattern architecture will mandate a standards-based approach to resource authentication (Managed Identity), user authorisation (role-based access control) and both user and system activity auditing | Green |
+
+## Architecture Constraints
+
+* External generation of marketing material should follow standard security and access rules concerning all clients, and especially clients with restricted access, such as high net worth and clients with NDA's
+* Marketing material should not persist on external sites longer than is necessary to complete the task.
+  * This is to avoid possible security leaks
+  * Minimise storage costs
+* Access to the service will follow current approved security and access rules.
+  * Managed Identity to provide resource access.
+  * User Identity optional, as calling systems will have already authenticated the user.
+    * If User Identity is passed then it should be validated.
+  * User Identity to satisfy audit.
+
+## Technical Constraints
+
+|                                | Constraint Background and / or motivation | Software and programming constraints                                                                        |
+| ------------------------------ | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| _Code Constraints_             |                                           |                                                                                                             |
+| TC1                            | Implementation in C#                      | The application will be written/maintained in the current version of C#                                     |
+| TC2                            | .Net Framework                            | The application will use the current LTS version of .Net                                                    |
+| TC3                            | This Party Libraries                      | Any third party library needs to be approved, and have the appropriate Open Source license. |
+| _Operating System Constraints_ |                                           |                                                                                                             |
+| TC4                            | Cloud Provider                            | The application will be deployed to the Microsoft Azure Cloud                                               |
+| TC5                            | OS Development                            | The application developed for the windows platform                                                          |
+
+## Approved Pattern Architecture Documents (PAD)
+
+| Pad                              | Approved                                                                                                                                                                           |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Third Party Integration          | [PAD-Third Party Integrations.docx](https://knightfrank.sharepoint.com/:w:/s/Architecture/Efx6Mu57pd5EvzxneOkp3BwBrd4PPgLNvRWThUta0YXgmQ?e=SRRik8)                                 |
+| Managed Identities               | [Managed Identities.docx](https://knightfrank.sharepoint.com/:w:/s/Architecture/ES8fu2cJ8Q5KkEcKDfiH74YBgbe2vWp360_wqvbQLZugZg?e=snBN5J)                                           |
+| APIM                             | [APIM.docx](https://knightfrank.sharepoint.com/:w:/s/Architecture/EWajcLw7-AhLvg6JdMfN69EBgcHCdiHvJ847G6ije2r9xw?e=T2rnd1)                                                         |
+| WebHooks                         | [Webhooks.docx](https://knightfrank.sharepoint.com/:w:/s/Architecture/EetbFvDt19VMjVTyXIwxTfYBPjisBUX7ilHKKMNnUsU6dQ?e=PicNn6)                                                     |
+| Azure Functions                  | [AzureFunctions.docx](https://knightfrank.sharepoint.com/:w:/s/Architecture/Eb8K_m55IRdLvByM-qakjyABCmMYpnq0Evk4Ja-1BKSmbg?e=ox6WCL)                                               |
+| Tenant, Subscribers and Resource | [TenantsSubscriptionsAndResourceGroups.docx](https://knightfrank.sharepoint.com/:w:/s/Architecture/ERws57dqRhZNpRoydqVczsABfKB6uj7-ZxjTqyUOzVB8bA?e=6a0Wvl)                        |
+| Groups                           |                                                                                                                                                                                    |
+| Customer Insights Data Pipeline  | [Customer Insights to Hub Data Pipeline SAD v1.0.docx](https://knightfrank.sharepoint.com/:w:/s/SROProjectsDepartmentcopy/ETja2C-RS3NOuZsQ0x9J03MBmm6abX8Ebnzn0wflf8E00g?e=dg6RhP) |

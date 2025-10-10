@@ -1,0 +1,206 @@
+{
+  "index.qmd": {
+    "index.html": "981ec5cf"
+  },
+  "intro.qmd": {
+    "intro.html": "69cf0ed6"
+  },
+  "summary.qmd": {
+    "summary.html": "96dfea43"
+  },
+  "references.qmd": {
+    "references.html": "4ee3448d"
+  },
+  "Readme.md": {
+    "Readme.html": "554bb2b2"
+  },
+  "1-introduction-and-goals.md": {
+    "1-introduction-and-goals.html": "6827fc99"
+  },
+  "2-architectural-constraints.md": {
+    "2-architectural-constraints.html": "736351b2"
+  },
+  "3-system-scope-and-context.md": {
+    "3-system-scope-and-context.html": "fc81803b"
+  },
+  "4-solution-strategy.md": {
+    "4-solution-strategy.html": "d85c25c0"
+  },
+  "../../../../../5-building-block-view/Readme.md": {
+    "Readme.html": "0161c1d6"
+  },
+  "6-runtime-view.md": {
+    "6-runtime-view.html": "ae1bc1f0"
+  },
+  "7-deployment-view.md": {
+    "7-deployment-view.html": "0124e995"
+  },
+  "5-building-block-view/Readme.md": {
+    "Readme.html": "76882d84"
+  },
+  "index.md": {
+    "index.html": "47fd36ad"
+  },
+  "introduction-and-goals.md": {
+    "introduction-and-goals.html": "4eccb17a"
+  },
+  "architectural-constraints.md": {
+    "architectural-constraints.html": "b9978618"
+  },
+  "system-scope-and-context.md": {
+    "system-scope-and-context.html": "86b4266d"
+  },
+  "solution-strategy.md": {
+    "solution-strategy.html": "6056b13c"
+  },
+  "runtime-view.md": {
+    "runtime-view.html": "0f323632"
+  },
+  "deployment-view.md": {
+    "deployment-view.html": "66cc8751"
+  },
+  "building-block-view/Readme.md": {
+    "Readme.html": "67877a05"
+  },
+  "building-block-view/building-block-view.md": {
+    "building-block-view.html": "0ed711d8"
+  },
+  "building-block-view/azure-function-detail.md": {
+    "azure-function-detail.html": "579692b6"
+  },
+  "building-block-view/cosmos-db-component.md": {
+    "cosmos-db-component.html": "c11d8f83"
+  },
+  "building-block-view/domain-logic-component.md": {
+    "domain-logic-component.html": "cf0849a2"
+  },
+  "building-block-view/security-component.md": {
+    "security-component.html": "69bea8a4"
+  },
+  "building-block-view/cosmos-db-component.qmd": {
+    "cosmos-db-component.html": "529271cf"
+  },
+  "test.qmd": {
+    "test.html": "351f791a"
+  },
+  "building-block-view/azure-function-detail.qmd": {
+    "azure-function-detail.html": "6b97692e"
+  },
+  "building-block-view/azure-function-detail/index.qmd": {
+    "index.html": "d09990e1"
+  },
+  "building-block-view/cosmos-db-component/index.qmd": {
+    "index.html": "dd3269d6"
+  },
+  "building-block-view/domain-logic-component/index.md": {
+    "index.html": "91447330"
+  },
+  "building-block-view/security-component/index.md": {
+    "index.html": "0adf5d0f"
+  },
+  "../../../../../Book/introduction-and-goals.md": {
+    "introduction-and-goals.html": "d14ddbc0"
+  },
+  "../../../../../Book/architectural-constraints.md": {
+    "architectural-constraints.html": "7f298bc0"
+  },
+  "../../../../../Book/system-scope-and-context/index.md": {
+    "index.html": "9fe3a066"
+  },
+  "../../../../../Book/building-block-view/building-block-view/index.md": {
+    "index.html": "a83b6cd6"
+  },
+  "../../../../../Book/building-block-view/azure-function-detail/index.qmd": {
+    "index.html": "e8db3525"
+  },
+  "../../../../../Book/building-block-view/cosmos-db-component/index.qmd": {
+    "index.html": "4fc2e353"
+  },
+  "../../../../../Book/building-block-view/domain-logic-component/index.md": {
+    "index.html": "4e9c31e6"
+  },
+  "../../../../../Book/building-block-view/security-component/index.md": {
+    "index.html": "e28217b2"
+  },
+  "../../../../../Book/solution-strategy.md": {
+    "solution-strategy.html": "7c7edeb0"
+  },
+  "../../../../../Book/runtime-view.md": {
+    "runtime-view.html": "0b10c624"
+  },
+  "../../../../../Book/deployment-view.md": {
+    "deployment-view.html": "eb6918d0"
+  },
+  "../../../../../Book/test.qmd": {
+    "test.html": "2ee6ca7f"
+  },
+  "Book/introduction-and-goals.md": {
+    "introduction-and-goals.html": "67a57710"
+  },
+  "Book/architectural-constraints.md": {
+    "architectural-constraints.html": "c489f95a"
+  },
+  "Book/system-scope-and-context/index.md": {
+    "index.html": "0ce90ff7"
+  },
+  "Book/building-block-view/building-block-view/index.md": {
+    "index.html": "8bf1157b"
+  },
+  "Book/building-block-view/azure-function-detail/index.qmd": {
+    "index.html": "c3b95e3c"
+  },
+  "Book/building-block-view/cosmos-db-component/index.qmd": {
+    "index.html": "fc7261eb"
+  },
+  "Book/building-block-view/domain-logic-component/index.md": {
+    "index.html": "ebe69cf7"
+  },
+  "Book/building-block-view/security-component/index.md": {
+    "index.html": "dda4fc4d"
+  },
+  "Book/solution-strategy.md": {
+    "solution-strategy.html": "6a2b4cf6"
+  },
+  "Book/runtime-view.md": {
+    "runtime-view.html": "b5e937ff"
+  },
+  "Book/deployment-view.md": {
+    "deployment-view.html": "8bfce8ca"
+  },
+  "Book/test.qmd": {
+    "test.html": "dfebd74d"
+  },
+  "Book/introduction-and-goals/index.md": {
+    "index.html": "0d840f51"
+  },
+  "Book/test/index.qmd": {
+    "index.html": "5d50ea3c"
+  },
+  "Book/introduction-and-goals/index.qmd": {
+    "index.html": "1b115ec1"
+  },
+  "Book/architectural-constraints/index.qmd": {
+    "index.html": "9bafe21b"
+  },
+  "Book/system-scope-and-context/index.qmd": {
+    "index.html": "228c5256"
+  },
+  "Book/building-block-view/building-block-view/index.qmd": {
+    "index.html": "44c71b35"
+  },
+  "Book/building-block-view/domain-logic-component/index.qmd": {
+    "index.html": "5f1f962b"
+  },
+  "Book/building-block-view/security-component/index.qmd": {
+    "index.html": "2ddb68d4"
+  },
+  "Book/solution-strategy/index.qmd": {
+    "index.html": "8d9b9a31"
+  },
+  "Book/runtime-view/index.qmd": {
+    "index.html": "61821c3d"
+  },
+  "Book/deployment-view/index.qmd": {
+    "index.html": "6cf4d13c"
+  }
+}
