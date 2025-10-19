@@ -1,10 +1,9 @@
 # Building Block View
 
-![image](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/newportg/Frontify/master/plantuml/BuildingBlockView.puml)
 
-<!-- ```{.plantuml}
-!include /plantuml/BuildingBlockView.puml
-``` -->
+```{.plantuml pumlfile="BuildingBlockView"}
+```
+
 
 This service has been designed to handle the interaction with the Frontify brochure generation service. Based on the information supplied the service will determine whether to use the, more automated API service, or the more bespoke CSV file service, which requires a great deal of user interaction.
 
@@ -59,14 +58,12 @@ The sequence diagram below shows the flow calls to Frontify.
 
 The group in red is an area of discussion, as this is the manual, bespoke, process, so the service will not be able to track changes or completion. Meaning the incomplet objects in the datastore will keep building, making the CSV larger and larger.
 
-```{.plantuml}
-!include /plantuml/InteractionsSeq.puml
+```{.plantuml pumlfile="InteractionsSeq"}
 ```
 
 ### Flowchart
 
-```{.plantuml}
-!include /plantuml/ProcessFlow.puml
+```{.plantuml pumlfile="ProcessFlow"}
 ```
 
 ### Component Detail

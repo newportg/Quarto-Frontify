@@ -4,8 +4,7 @@ The domain logic will handle requests from both Service Bus and Ad-hoc via a RES
 
 ## Flowchart
 
-```{.plantuml}
-!include /plantuml/ProcessFlow.puml
+```{.plantuml pumlfile="ProcessFlow"}
 ```
 
 ## Schemas and Maps
@@ -25,16 +24,14 @@ Objects received from interfaces should follow a standard VETER integration patt
 * Route
   * Directs the processed message to the appropriate destination based on certain criteria.
 
-```{.plantuml}
-!include /plantuml/VETER.puml
+```{.plantuml pumlfile="VETER"}
 ```
 
 ## Brochure Generation
 
 ### Request Schema
 
-```{.plantuml}
-!include /plantuml/ServiceBusReq.puml
+```{.plantuml pumlfile="ServiceBusReq"}
 ```
 
 ### Validation Rules
@@ -56,7 +53,6 @@ Objects received from interfaces should follow a standard VETER integration patt
 
 ### Response Schema
 
-```{.plantuml}
-!include /plantuml/ServiceBusRes.puml
+```{.plantuml pumlfile="ServiceBusRes"}
 ```
 

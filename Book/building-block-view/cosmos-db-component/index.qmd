@@ -4,6 +4,5 @@ A NoSql Cosmos DB container should be used as this service is similar in operati
 
 ## Containers
 
-```{.plantuml}
-!include /plantuml/cosmosdb.puml
+```{.plantuml pumlfile="cosmosdb"}
 ```

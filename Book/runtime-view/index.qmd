@@ -4,8 +4,8 @@
 
 This shows the general flow of how the system will function.
 
-```{.plantuml}
-!include /plantuml/RuntimeView.puml
+
+```{.plantuml pumlfil="RuntimeView"}
 ```
 
 1. The selects if they want to generate a Bespoke or a Auto Generated brochure.

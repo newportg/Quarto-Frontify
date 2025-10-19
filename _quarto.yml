@@ -8,7 +8,7 @@ book:
   date: "10/10/2025"
   sidebar: 
     background: "#F5F5F5"
-    logo: cover.png
+    logo: coverGB.png
     search: true
   chapters:
     - index.qmd
@@ -39,5 +39,4 @@ diagram:
       execpath: "C:/Plantuml/plantuml.bat"
 
 filters:
-  - C:/Users/NEWPORTG/source/Personal/Quarto-Frontify/_filters/inline-plantuml-input.lua
-  - C:/Users/NEWPORTG/source/Personal/Quarto-Frontify/_extensions/pandoc-ext/diagram/diagram.lua
+  - plantuml-diagram

@@ -4,10 +4,9 @@
 
 ### Azure Function
 
-![image](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/newportg/Frontify/master/plantuml/AzureFunction.puml)
-<!-- ```{.plantuml}
-!include /plantuml/AzureFunction.puml
-``` -->
+```{.plantuml pumlfile="AzureFunction"}
+```
+
 
 #### RESTFul API
 
@@ -18,8 +17,7 @@
 * Returns a list of templates
 * Flow
 
-```{.plantuml}
-!include /plantuml/GetTemplates.puml
+```{.plantuml pumlfile="GetTemplates"}
 ```
 
 * URL : /Templates
@@ -36,16 +34,14 @@
     | 5xx   | System Failure |
 * Response Body
 
-```{.plantuml}
-!include /plantuml/GetTemplatesRes.puml
+```{.plantuml pumlfile="GetTemplatesRes"}
 ```
 
 **N.B. The Details array forms the Details array of the brochure request.**
 
 **Complete Brochure**
 
-```{.plantuml}
-!include /plantuml/CompleteBrochure.puml
+```{.plantuml pumlfile="CompleteBrochure"}
 ```
 
 |               |                   |                          |
@@ -73,8 +69,7 @@
 * Request Body **None**
 *   Response Body
 
-```{.plantuml}
-!include /plantuml/GetBySourceAppRes.puml
+```{.plantuml pumlfile="GetBySourceAppRes"}
 ```
 
 *   HTTP Errors
@@ -100,14 +95,12 @@
 * Response Body
   *   Count Response
 
-```{.plantuml}
-!include /plantuml/GetByUserCountRes.puml
+```{.plantuml pumlfile="GetByUserCountRes"}
 ```
 
   *   Detail response
 
-```{.plantuml}
-!include /plantuml/GetByUserDetailRes.puml
+```{.plantuml pumlfile="GetByUserDetailRes"}
 ```
 
 *   HTTP Errors
@@ -133,14 +126,12 @@
 * Response Body
   *   Count Response
 
-```{.plantuml}
-!include /plantuml/GetByImpersonatingCountRes.puml
+```{.plantuml pumlfile="GetByImpersonatingCountRes"}
 ```
 
   *   Detail response
 
-```{.plantuml}
-!include /plantuml/GetByImpersonatingDetailRes.puml
+```{.plantuml pumlfile="GetByImpersonatingDetailRes"}
 ```
 
 *   HTTP Errors
@@ -185,22 +176,19 @@
 
     *   Count Response
 
-```{.plantuml}
-!include /plantuml/GetByHostCountRes.puml
+```{.plantuml pumlfile="GetByHostCountRes"}
 ```
 
     *   Detail response
 
-```{.plantuml}
-!include /plantuml/GetByHostDetailRes.puml
+```{.plantuml pumlfile="GetByHostDetailRes"}
 ```
 
 #### Service Bus
 
 **Request**
 
-```{.plantuml}
-!include /plantuml/ServiceBusReq.puml
+```{.plantuml pumlfile="ServiceBusReq"}
 ```
 
 | Column     | M/O | Type    | Description                                                      |
@@ -218,6 +206,5 @@
 
 **Response**
 
-```{.plantuml}
-!include /plantuml/ServiceBusRes.puml
+```{.plantuml pumlfile="ServiceBusRes"}
 ```
