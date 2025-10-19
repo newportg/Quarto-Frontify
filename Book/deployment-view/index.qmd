@@ -1,7 +1,5 @@
 # Deployment View
 
-![image](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/newportg/Frontify/master/plantuml/DeploymentView.puml)
-
 ```{.plantuml pumlfile="DeploymentView"}
 ```
 
