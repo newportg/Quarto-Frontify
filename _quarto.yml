@@ -29,14 +29,14 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
+#  pdf:
+#    documentclass: scrreprt
 
 
-diagram:
-  engine:
-    plantuml:
-      execpath: "C:/Plantuml/plantuml.bat"
+#diagram:
+#  engine:
+#    plantuml:
+#      execpath: "C:/Plantuml/plantuml.bat"
 
 filters:
   - plantuml-diagram
