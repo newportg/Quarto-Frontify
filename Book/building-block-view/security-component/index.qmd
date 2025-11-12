@@ -1,6 +1,5 @@
 # Security Component
 
-![image](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/newportg/Frontify/master/plantuml/SecurityComponent.puml)
 ```{.plantuml pumlfile="SecurityComponent"}
 ```
 
